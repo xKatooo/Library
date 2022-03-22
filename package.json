@@ -1,0 +1,22 @@
+{
+    "name": "library",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon ./bot/bot.js",
+        "start": "node ./bot/bot.js"
+    },
+    "keywords": [],
+    "author": "xKatooo",
+    "license": "ISC",
+    "dependencies": {
+        "discord.js": "^13.6.0",
+        "dotenv": "^16.0.0",
+        "firebase-admin": "^10.0.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
